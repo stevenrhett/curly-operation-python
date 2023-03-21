@@ -1,7 +1,5 @@
 # Problem list
 
-## From [Harvard's CS50 course](https://computersciencewiki.org/index.php/Problem_Sets)
-
 ### Min and max
 
 Write a program that takes a list of numbers as its input. Then return the highest and lowest numbers that were given.
@@ -123,7 +121,10 @@ EHBBQ
 
 ## Basic data parsing and handling
 
-TODO: The purpose of these questions is to make sure you're comfortable reading and writing data to files from Python, in addition to parsing data of different formats and using different data formats intelligently to create better solutions.
+The purpose of these questions is to make sure you're comfortable reading and writing data to files from Python, in addition to parsing data of different formats and using different data formats intelligently to create better solutions.
+
+TODO
+
 
 ## Loop practice
 
