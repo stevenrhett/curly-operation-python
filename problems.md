@@ -123,7 +123,43 @@ EHBBQ
 
 The purpose of these questions is to make sure you're comfortable reading and writing data to files from Python, in addition to parsing data of different formats and using different data formats intelligently to create better solutions.
 
-TODO
+### Housing data
+
+Write a program to ingest the `home_data.csv` file and list the 10 least expensive houses along with their ZIP codes, condition, and living square feet.
+
+### Olympics
+
+Write a program to ingest the `olympics.csv` file and list the top 3 countries who have won the most summer olympic medals and the top 3 countries who have won the most winter olypmic medals.
+
+### Movies data
+
+Write a program to ingest the `movies.csv` file and list top rated movie in each genre.
+
+### Narcos - show info
+
+Write a program to ingest the `narcos.json` file and list the TV show name, the genres that it fits under, and the average show rating.
+
+### Narcos - episode info
+
+Write a program to ingest the `narcos.json` file and list each episodes' name, season, and rating, sorted by the highest to lowest rating.
+
+### User creation
+
+The point of this exercise is to practice storing and changing user information. Your program should parse JSON data (from a file for now), allowing the following fields to be set via that JSON: `username`, `first-name`, `last-name`, `email`, `password`, `following`, `followers`. These are all strings except `following` and `followers`, which are bost lists of strings.
+
+In `/data` you will find a file called `new_user.json`. Create a new user from this data and store it however you'd like (JSON or CSV probably makes sense). You can store this file in `/data` if you'd like.
+
+Your program should also be able to show a list of all existing users, showing their username.
+
+> Question: Is there anything else you think we might want to save for each user?
+
+### (challenge) Editing an existing user
+
+Using the set up from the previous problem, allow a user's list of `following` and `followers` to be updated via JSON.
+
+In `/data` you will find a file named `add_follower.json` to do this with. You should update the appropriate list for both uses.
+
+Make sure that the user being followed exists before adding it to the list! Your program should print the new list at the end.
 
 
 ## Loop practice
@@ -241,6 +277,10 @@ There are a lot of different data structures (binary trees, linked lists, etc.).
 ### Pathfinding algorithms
 
 Write a Python program to implement a pathfinding algorithm to find the shortest path between two points in a 2D grid. You can use the A\* algorithm or any other pathfinding algorithm of your choice. The program should take as input the start and end points, as well as the obstacles in the grid.
+
+### Sockets (responding to live data)
+
+There are a lot of instances where you might want to listen for traffic at a particular address and handle the flow of data. Common use cases for this sort of thing includes traffic hitting an endpoint and users posting new content.
 
 ### Web scraping
 
