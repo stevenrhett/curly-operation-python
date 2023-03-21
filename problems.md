@@ -162,6 +162,8 @@ Given a two dimensional array of numbers, find the number that is repeated the m
 ### Pattern creation
 
 Write a program to construct the following pattern using loops.
+
+```
 *
 * *
 * * *
@@ -171,6 +173,7 @@ Write a program to construct the following pattern using loops.
 * * *
 * *
 *
+```
 
 ### Minesweeper
 
