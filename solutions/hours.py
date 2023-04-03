@@ -1,25 +1,27 @@
-# Write a program that prompts users for the number of weeks that they worked. Then prompt them for how many hours they worked each week. Then prompt them for whether they’d like the total number of hours worked or the average of the number of hours per week and return the result asked for.
+# prompt user for number of weeks worked
+while True:
+    try:
+        num_weeks = int(input("How many weeks did you work? "))
+        break
+    except ValueError:
+        print("Invalid input. Please enter a number.")
 
+# prompt user for hours worked per week
+hours_worked = []
+for week in range(1, num_weeks + 1):
+    hours = int(input(f"How many hours did you work in week {week}? "))
+    hours_worked.append(hours)
 
-num_weeks = int(input("How many weeks did you work? "))
+# prompt user for the type of output they want
+output_type = input("Do you want the total hours worked (enter 'total') or average hours per week (enter 'average')? ")
 
+# calculate total or average hours worked
+if output_type == "total":
+    total_hours = sum(hours_worked)
+    print(f"Total hours worked: {total_hours}")
+elif output_type == "average":
+    avg_hours = sum(hours_worked) / num_weeks
+    print(f"Average hours worked per week: {avg_hours}")
+else:
+    print("Invalid input. Please enter 'total' or 'average'.")
 
-hours_per_week = []
-
-
-for week in range(num_weeks):
-    hours = float(input(f"How many hours did you work in week {week+1}? "))
-    hours_per_week.append(hours)
-
-
-result_type = input(
-    "Enter 't' for total or 'a' for average: ")
-
-
-if result_type == "t":
-    result = sum(hours_per_week)
-elif result_type == "a":
-    result = sum(hours_per_week) / num_weeks
-
-# Print the result
-print(f"The {result_type} number of hours worked is {result}.")
