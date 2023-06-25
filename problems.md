@@ -170,7 +170,7 @@ Write a function to find the product (multiplication) of two given numbers only 
 
 ### Modulo
 
-Write a function tthat calculates the modulo (remainder - usually `%`) of a number divided by another number.. For example, `mod(137, 10)` should result in 7.
+Write a function that calculates the modulo (remainder - usually `%`) of a number divided by another number.. For example, `mod(137, 10)` should result in 7.
 
 ### Sum
 
