@@ -164,13 +164,17 @@ Make sure that the user being followed exists before adding it to the list! Your
 
 ## Loop practice
 
-### Sum
-
-Write a program to calculate the sum of digits in a number using a loop.
-
 ### Multiplication
 
 Write a function to find the product (multiplication) of two given numbers only using addition. For example, `multiple(2, 5)` should result in 10.
+
+### Modulo
+
+Write a function tthat calculates the modulo (remainder - usually `%`) of a number divided by another number.. For example, `mod(137, 10)` should result in 7.
+
+### Sum
+
+Write a program to calculate the sum of digits in a number using a loop.
 
 ### Divisibility
 
